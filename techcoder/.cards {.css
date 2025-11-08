@@ -1,0 +1,53 @@
+.cards {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+.card_container {
+  height: 20rem;
+  width: 85%;
+  background-color: #9feb09;
+  margin: 3rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.card_container img {
+  height: 20rem;
+  width: 45%;
+  overflow: hidden;
+}
+.card_container .card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Card container  */
+.card {
+  display: flex;
+  width: 40%; /* change width as needed */
+  margin: 5rem;
+  background: #f00e0e;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.08);
+  overflow: hidden; /* ensures rounded corners hide image overflow */
+}
+
+/* Left image area */
+.card__img {
+  height: 200px;
+  overflow: hidden;
+}
+.card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cover keeps image aspect and fills area */
+  display: flex;
+}
+
+/* Right text area */
+.card_container .text {
+  text-align: end;
+}
