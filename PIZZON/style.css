@@ -390,3 +390,60 @@ div .view {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.seventh {
+  margin-top: -1.21rem;
+}
+.carous {
+  background-color: rgb(33, 32, 32);
+  margin: 20px;
+  width: 90%;
+  height: 30rem;
+  /* border: 5px solid red; */
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  margin-left: 5rem;
+}
+.carous::-webkit-scrollbar {
+  display: none;
+}
+.carous .card1 {
+  flex: 0 0 5em;
+  height: 10em;
+  padding: 1em;
+  outline: none;
+  /* background: white; */
+  font-size: 3rem;
+  border-radius: 0.2em;
+  text-align: center;
+  justify-content: center;
+}
+.carous .card p {
+  background-color: white;
+  color: black;
+  font-size: large;
+  /* height: 4rem; */
+  text-align: center;
+}
+.card1 .card img {
+  height: 20rem;
+  /* width: 20rem; */
+}
+.carous .group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: spin 20s infinite linear;
+  padding-right: 1em;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
