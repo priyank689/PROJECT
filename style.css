@@ -447,3 +447,32 @@ div .view {
     translate: -100%;
   }
 }
+
+.eighth h2 {
+  color: orange;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.eighth h1 {
+  margin-top: -0.5rem;
+  color: black;
+  background-color: white;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.eighth-one {
+  display: flex;
+  justify-content: space-around;
+}
+.eighth-one img {
+  width: 25rem;
+  height: 15rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
