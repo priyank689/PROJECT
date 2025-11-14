@@ -506,10 +506,12 @@ div .view {
 .eighth-one h5 {
   background-color: white;
   font-size: 1.3rem;
+  padding-bottom: 1rem;
   /* margin-top: 0.5rem; */
 }
 .eighth-one h5:hover {
   color: orange;
+  padding-bottom: 1rem;
   /* background-color: white;
   font-size: 1.3rem; */
   /* margin-top: 0.5rem; */
@@ -518,6 +520,7 @@ div .view {
 .eighth-one .first .readmore {
   background-color: white;
   margin-top: -0.46rem;
+  /* padding-top: 0.1rem; */
   font-weight: 150;
   color: orange;
   /* margin-top: -0rem; */
@@ -532,7 +535,24 @@ div .view {
 }
 
 .ninth {
-  height: 10rem;
+  height: 31rem;
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-top: -0.5rem;
+  justify-content: space-around;
+}
+.ninth .inner {
+  width: 30%;
 }
 .ninth img {
+  height: 7.9rem;
+  width: 8rem;
+  border-radius: 100rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.ninth p {
+  margin-top: 1.5rem;
+  line-height: 1.7rem;
 }
