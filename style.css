@@ -556,3 +556,12 @@ div .view {
   margin-top: 1.5rem;
   line-height: 1.7rem;
 }
+
+.tenth {
+  display: flex;
+  height: 40rem;
+}
+
+.tenth .inner {
+  width: 50%;
+}
