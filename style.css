@@ -9,11 +9,6 @@ body {
   font-weight: 200;
   font-style: normal;
   background-color: rgb(33, 32, 32);
-  /* background-image: url("bgg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  /* */
 }
 nav {
   display: flex;
@@ -76,6 +71,13 @@ nav ul li i {
   margin-left: 10rem;
   margin-top: 2.3rem;
   background-color: orange;
+}
+.secondpart div i:hover {
+  font-size: 3rem;
+  margin-left: 10rem;
+  margin-top: 2.3rem;
+  background-color: orange;
+  color: black;
 }
 .secondpart .order {
   background-color: orange;
@@ -306,6 +308,17 @@ div .view {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+  background-color: white;
+}
+.fifthone h2:hover {
+  color: black;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.fifthone h2 i:hover {
   background-color: white;
 }
 .fifth .fifthone p {
@@ -571,15 +584,16 @@ div .view {
   color: white;
   height: 30rem;
 }
+
 .eleventh .first {
   width: 35%;
 
   text-align: start;
 }
+.eleventh .orange:hover {
+  color: orange;
+}
 
-/* .eleventh .first .inherit p {
-  margin-top: -30rem;
-} */
 .footer {
   color: white;
   height: 2rem;
@@ -590,7 +604,7 @@ div .view {
   color: white;
   margin-left: 1.8rem;
 }
-.footer i :hover {
+.footer i:hover {
   font-size: 1.5rem;
   color: white;
   color: orange;
