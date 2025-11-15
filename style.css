@@ -565,3 +565,34 @@ div .view {
 .tenth .inner {
   width: 50%;
 }
+
+.eleventh {
+  display: flex;
+  color: white;
+  height: 30rem;
+}
+.eleventh .first {
+  width: 35%;
+
+  text-align: start;
+}
+
+/* .eleventh .first .inherit p {
+  margin-top: -30rem;
+} */
+.footer {
+  color: white;
+  height: 2rem;
+  font-size: 1.1rem;
+}
+.footer i {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1.8rem;
+}
+.footer i :hover {
+  font-size: 1.5rem;
+  color: white;
+  color: orange;
+  margin-left: 1.8rem;
+}
