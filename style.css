@@ -775,3 +775,96 @@ div .view {
   padding-top: 1rem;
   line-height: 1.5rem;
 }
+.contactpage {
+  height: 25rem;
+
+}
+.contactpage h1 {
+  color: rgb(252, 222, 222);
+  /* padding-top: 1rem; */
+  margin-top: -15rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contactone{
+  background-color: white;
+  display: flex;
+  height: 50rem;
+}
+.contactone .contactdetail{
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+.contactone .contactdetail h2{
+  font-size: 2.7rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contactone .contactdetail p{
+  font-size: .9rem;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
+    /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+.contactone .contact{
+  margin-top: 3rem;
+  margin-left: 5rem;
+  
+}
+.contactone .contact h2{
+  background-color: white;
+  color: orange;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.contactone .contact h1{
+  font-size: 4rem;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contactone .contact input{
+  background-color: white;
+  margin-top: 3rem;
+  width: 70%;
+  padding-left: 1rem;
+  border: 1px solid black;
+  outline: none;
+  width: 50rem;
+  height: 3rem;
+}
+.contactone button{
+  margin-left: 40%;
+  height: 4rem;
+  width: 11rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  outline: none;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+}
+.contactone button:hover{
+  margin-left: 40%;
+  height: 4rem;
+  width: 11rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  outline: none;
+  border: 1px solid orange;
+  background-color:white;
+  color: orange;
+
+}
+.contactone .contactdetail i{
+  background-color: white;
+  color: orange;
+  font-size: 1.2rem;
+}
+.contactone .contactdetail h6{
+  line-height: 2rem;
+}
