@@ -637,3 +637,51 @@ div .view {
   background: transparent;
   /* background: none; */
 }
+
+.aboutcontainer {
+  background-color: white;
+  margin-top: 5rem;
+  display: flex;
+  height: 33rem;
+}
+.aboutcontainer .img {
+  background-color: white;
+}
+.aboutcontainer img {
+  background-color: white;
+  height: 30rem;
+  margin: 0 0 0 8rem;
+}
+.aboutcontainer .text {
+  background-color: white;
+  margin: 7rem 0 0 2rem;
+}
+.aboutcontainer .text h2 {
+  background-color: white;
+  color: orange;
+  /* padding-top: 5rem;
+  margin-top: -1rem; */
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutcontainer .text h1 {
+  background-color: white;
+  color: black;
+  /* padding-top: 1rem;
+  margin-top: -1rem; */
+  letter-spacing: 1px;
+  font-weight:bolder;
+  font-size: 3.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
+}
+
+.aboutcontainer .text p {
+  background-color: white;
+  font-size: 14px;
+  width: 90%;
+  margin-top: 1rem;
+}
