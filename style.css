@@ -956,3 +956,25 @@ div .view {
   display: flex;
   gap: 1.5rem;
 }
+
+.form button{
+  background-color: orange;
+  color: white;
+  outline: none;
+  width: 10rem;
+  height: 4rem;
+  border: 2px solid orange;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+
+.form button:hover{
+  background-color: white;
+  color: orange;
+  outline: none;
+  width: 10rem;
+  height: 4rem;
+  border: 2px solid orange;
+  border-radius: 2rem;
+  font-weight: 500;
+}
