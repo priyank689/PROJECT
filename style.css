@@ -914,7 +914,7 @@ div .view {
 /* .form {
   margin-top: -10rem;
 } */
-.form .one{
+.form .one {
   /* margin-top: 10rem; */
   /* margin-left: 50%; */
 }
@@ -924,7 +924,6 @@ div .view {
 .form .three{
   margin-top: 5rem;
 } */
-
 
 .form {
   position: relative;
@@ -952,12 +951,14 @@ div .view {
   border-radius: 6px;
 }
 
-.one, .two, .three {
+.one,
+.two,
+.three {
   display: flex;
   gap: 1.5rem;
 }
 
-.form button{
+.form button {
   background-color: orange;
   color: white;
   outline: none;
@@ -968,7 +969,7 @@ div .view {
   font-weight: 500;
 }
 
-.form button:hover{
+.form button:hover {
   background-color: white;
   color: orange;
   outline: none;
@@ -981,27 +982,42 @@ div .view {
 
 /* BLOG PAGE */
 
-.full{
+.full {
   color: white;
+  background-color: #fff;
 }
-.full .half-of-half{
+.full .half-of-half {
   width: 30%;
+  /* background-color: #fff; */
 }
-.full .half-of-half .smalldiv div img{
+/* .full .half-of-half .smalldiv div img {
   display: inline;
   width: 3rem;
-}
-.full .half-of-half .smalldiv div p{
+} */
+/* .full .half-of-half .smalldiv  {
   display: inline;
   line-height: 10rem;
   width: 3rem;
+  /* margin-top: -1rem; */
+/* }  */
+.full .half-of-half .smalldiv img{
+  width: 7rem;
 }
-.full .half-of-half .smalldiv div h6{
-  
-  display: inline;
-  width: 3rem;
+.full .half-of-half .smalldiv{
+  display: flex;
 }
-.full .half-of-half .smalldiv div{
-  display: inline;
-  /* width: 30%; */
+.full .half-of-half .smalldiv .two {
+  /* font-size: 100; */
+  display: table-column;
+  width: 9rem;
+  /* background-color: aqua; */
+}
+.full .half-of-half .smalldiv p{
+  font-size: 11px;
+  margin-top: 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+.full .half-of-half .smalldiv h6{
+  font-size: 14px;
+  font-weight: 400;
 }
