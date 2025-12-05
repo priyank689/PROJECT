@@ -978,3 +978,30 @@ div .view {
   border-radius: 2rem;
   font-weight: 500;
 }
+
+/* BLOG PAGE */
+
+.full{
+  color: white;
+}
+.full .half-of-half{
+  width: 30%;
+}
+.full .half-of-half .smalldiv div img{
+  display: inline;
+  width: 3rem;
+}
+.full .half-of-half .smalldiv div p{
+  display: inline;
+  line-height: 10rem;
+  width: 3rem;
+}
+.full .half-of-half .smalldiv div h6{
+  
+  display: inline;
+  width: 3rem;
+}
+.full .half-of-half .smalldiv div{
+  display: inline;
+  /* width: 30%; */
+}
