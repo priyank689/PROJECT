@@ -125,10 +125,11 @@ nav ul li i {
   border-radius: 33rem;
 }
 .third div img:hover {
-  height: 27.9rem;
-  margin-top: 4rem;
-  border-radius: 35rem;
-  transition: 1s;
+  /* height: 27.9rem; */
+  /* margin-top: 4rem; */
+  /* border-radius: 35rem; */
+  transition: 2s;
+  transform: scale(1.1);
 }
 
 .third div h2 {
@@ -226,27 +227,33 @@ div .view {
 .fourth .first img {
   height: 20rem;
   margin-bottom: 9rem;
+  margin-left: 1.8rem;
 }
 .fourth img:hover {
-  height: 20.3rem;
-  transition: 0.5s;
+  /* height: 20rem; */
+  transition: 0.9s;
+  transform: scale(0.8);
 }
 .fourth .first1 img {
   height: 20rem;
-  margin-left: 3.5rem;
+  /* margin-left: 3.5rem; */
+  margin-left: 4.4rem;
 }
 .fourth .first1 img:hover {
-  height: 20.3rem;
-  transition: 0.5s;
+  /* height: 20.3rem; */
+  transition: 0.9s;
+    transform: scale(0.8);
 }
 
 .fourth .first2 img {
   height: 18rem;
   margin-top: 0.1rem;
+  margin-left: 0.4rem;
 }
 .fourth .first2 img:hover {
-  height: 18.3rem;
-  transition: 0.5s;
+  /* height: 18.3rem; */
+  transition: 0.9s;
+   transform: scale(0.8);
 }
 
 .fourth .first h5 {
@@ -508,11 +515,12 @@ div .view {
 
 .eighth-one img:hover {
   width: 25rem;
-  height: 15.6rem;
+  height: 15rem;
   transition: 1s;
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   background-color: white;
+   transform: scale(1.1);
 }
 
 .eighth-one .first div {
@@ -983,7 +991,7 @@ div .view {
 /* BLOG PAGE */
 
 .full {
-  color: white;
+  /* color: white; */
   background-color: #fff;
   height: 80rem;
 }
@@ -992,45 +1000,56 @@ div .view {
   padding: 8rem 0 0 6.5rem;
   background-color: white;
 }
-/* .full .half-of-half .smalldiv div img {
-  display: inline;
-  width: 3rem;
-} */
-/* .full .half-of-half .smalldiv  {
-  display: inline;
-  line-height: 10rem;
-  width: 3rem;
-  /* margin-top: -1rem; */
-/* }  */
-.full .half-of-half .smalldiv img{
+.full .half-of-half .smalldiv img {
   width: 7rem;
   background-color: white;
-  
 }
-.full .half-of-half .smalldiv{
+.full .half-of-half .smalldiv img:hover {
+  /* width: 7rem;
+  background-color: white; */
+  transition: 2s;
+  transform: scale(1.1);
+}
+.full .half-of-half .smalldiv {
   display: flex;
   margin-top: 3rem;
   background-color: white;
 }
 .full .half-of-half .smalldiv .two {
-  /* font-size: 100; */
   display: table-column;
   width: 9rem;
   background-color: white;
 }
-.full .half-of-half .smalldiv p{
-  font-size: 11px;
+.full .half-of-half .smalldiv p {
+  font-size: 12px;
+  font-weight: 300;
   margin-left: 1rem;
   margin-top: 1.2rem;
   color: orange;
   background-color: white;
-  /* margin-bottom: 1rem; */
 }
-.full .half-of-half .smalldiv h6{
+
+.full .half-of-half .smalldiv h6 {
   background-color: white;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(90, 89, 89);
   margin-left: 1rem;
   width: 13rem;
+}
+.full .half-of-half h3 {
+  background-color: white;
+  margin: 1rem 0 1.2rem 0;
+}
+.full .half-of-half hr {
+  border: 1.5px solid black;
+}
+.full .half-of-half p {
+  background-color: white;
+  font-weight: 50;
+}
+.full .half-of-half p:hover {
+  /* background-color: white; */
+  color: orange;
+  font-weight: 50;
 }
