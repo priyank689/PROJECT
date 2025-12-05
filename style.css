@@ -242,7 +242,7 @@ div .view {
 .fourth .first1 img:hover {
   /* height: 20.3rem; */
   transition: 0.9s;
-    transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .fourth .first2 img {
@@ -253,7 +253,7 @@ div .view {
 .fourth .first2 img:hover {
   /* height: 18.3rem; */
   transition: 0.9s;
-   transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .fourth .first h5 {
@@ -520,7 +520,7 @@ div .view {
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   background-color: white;
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .eighth-one .first div {
