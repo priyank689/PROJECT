@@ -1091,6 +1091,14 @@ div .view {
   margin-left: 1rem;
   margin-top: 1rem;
 }
+.more-half h3:hover{
+  color: orange;
+  transition: 0.5s;
+}
+.more-half h3{
+  /* color: orange; */
+  color: black; background-color: white; margin-top: -.6rem;
+}
 .more-half .button:hover{
   width: 2.5rem; 
   height: 2.6rem;
