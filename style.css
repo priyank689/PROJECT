@@ -1126,3 +1126,20 @@ div .view {
   margin-top: 1rem;
   transition: 1s;
 }
+
+/* MENU-BURGER PAGE */
+
+.navbarstyleouter h5 .all1{
+  /* background-color: transparent; */
+  outline: none;
+  color: white;
+  background-color: rgb(55, 54, 54);
+  width: 6.28rem;
+  border-radius: 2rem;
+  height: 3rem;
+  margin-top: -0.7rem;
+  border: none;
+} 
+.navbarstyleouter h5 :hover{
+  background-color: orange;
+}
