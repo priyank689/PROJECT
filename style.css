@@ -14,6 +14,7 @@ body {
 nav {
   display: flex;
   position: relative;
+  /* position: sticky; */
   color: white;
   /* background-color: rgba(40, 32, 32, 0.289); */
 }
@@ -1143,4 +1144,83 @@ div .view {
 } 
 .navbarstyleouter h5 :hover{
   background-color: orange;
+}
+
+
+
+/* view more section in category shop page */
+
+
+
+.more-half1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80rem;
+  justify-content: space-around;
+}
+.more-half1 .first img {
+  height: 20rem;
+  margin-bottom: 9rem;
+  margin-left: 1.8rem;
+}
+.more-half1 img:hover {
+  /* height: 20rem; */
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+.more-half1 .first1 img {
+  height: 20rem;
+  /* margin-left: 3.5rem; */
+  margin-left: 4.4rem;
+}
+.more-half1 .first1 img:hover {
+  /* height: 20.3rem; */
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+
+.more-half1 .first2 img {
+  height: 18rem;
+  margin-top: 0.1rem;
+  margin-left: 0.4rem;
+}
+.more-half1 .first2 img:hover {
+  /* height: 18.3rem; */
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+
+.more-half1 .first h5 {
+  /* color: ; */
+  text-align: center;
+  margin-top: -9rem;
+}
+.more-half1 .first p {
+  color: white;
+  text-align: center;
+}
+.more-half1 .first h5 p h7 {
+  text-align: center;
+  color: orange;
+}
+
+.more-half1 .first2 h5 {
+  color: white;
+  text-align: center;
+  margin-top: 1.7rem;
+}
+.more-half1 .first2 p {
+  color: rgb(183, 177, 177);
+  text-align: center;
+}
+
+.more-half1 .first1 h5 {
+  color: white;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+.more-half1 .first1 p {
+  color: rgb(183, 177, 177);
+  text-align: center;
 }

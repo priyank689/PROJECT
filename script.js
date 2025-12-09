@@ -14,6 +14,7 @@ let all10=document.getElementById("reservation-section");
 let all11=document.getElementById("pages-section");
 // let all12=document.getElementById("blog-page1");
 // let all13=document.getElementById("blog-page2");
+let all14=document.getElementById("view");
 
 all55.addEventListener("click", function () {
   window.location.href = "index.html";
@@ -57,4 +58,6 @@ all11.addEventListener("click", function () {
 // all13.addEventListener("click", function () {
 //   window.location.href = "blog2.html";
 // });
-
+all14.addEventListener("click", function () {
+  window.location.href = "category-shop.html";
+});
