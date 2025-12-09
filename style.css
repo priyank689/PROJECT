@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: rgb(33, 32, 32);
+  cursor: pointer;
 }
 body {
   font-family: "Zalando Sans Expanded", sans-serif;

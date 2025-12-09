@@ -1,14 +1,21 @@
 // MENU SECTION
 
-let all = document.getElementById("all-navbar");
+let all55 = document.getElementById("all-navbar");
 let all1=document.getElementById("nav-burger");
 let all2=document.getElementById("nav-drinks");
 let all3=document.getElementById("nav-pasta");
 let all4=document.getElementById("nav-salads");
 let all5=document.getElementById("nav-deserts");
 let all6=document.getElementById("nav-pizzas");
+let all7=document.getElementById("menu-section");
+let all8=document.getElementById("home-section");
+let all9=document.getElementById("blog-section");
+let all10=document.getElementById("reservation-section");
+let all11=document.getElementById("pages-section");
+// let all12=document.getElementById("blog-page1");
+// let all13=document.getElementById("blog-page2");
 
-all.addEventListener("click", function () {
+all55.addEventListener("click", function () {
   window.location.href = "index.html";
 });
 all1.addEventListener("click", function () {
@@ -29,4 +36,25 @@ all5.addEventListener("click", function () {
 all6.addEventListener("click", function () {
   window.location.href = "Menu-Pizza.html";
 });
+all7.addEventListener("click", function () {
+  window.location.href = "Menu.html";
+});
+all8.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
+all9.addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
+all10.addEventListener("click", function () {
+  window.location.href = "reservation.html";
+});
+all11.addEventListener("click", function () {
+  window.location.href = "pages.html";
+});
+// all12.addEventListener("click", function () {
+//   window.location.href = "blog.html";
+// });
+// all13.addEventListener("click", function () {
+//   window.location.href = "blog2.html";
+// });
 
