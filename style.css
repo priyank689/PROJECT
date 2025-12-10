@@ -1084,8 +1084,8 @@ div .view {
   color: rgb(62, 62, 62);
   /* font-size: 10rem; */
 }
-.more-half .button{
-  width: 2.5rem; 
+.more-half .button {
+  width: 2.5rem;
   height: 2.6rem;
   color: black;
   background-color: white;
@@ -1093,35 +1093,37 @@ div .view {
   margin-left: 1rem;
   margin-top: 1rem;
 }
-.more-half h3:hover{
+.more-half h3:hover {
   color: orange;
   transition: 0.5s;
 }
-.more-half h3{
+.more-half h3 {
   /* color: orange; */
-  color: black; background-color: white; margin-top: -.6rem;
+  color: black;
+  background-color: white;
+  margin-top: -0.6rem;
 }
-.more-half .button:hover{
-  width: 2.5rem; 
+.more-half .button:hover {
+  width: 2.5rem;
   height: 2.6rem;
   color: white;
   background-color: black;
   /* border: 1px solid rgb(93, 92, 92); */
   transition: 1s;
 }
-.more-half .button2{
- color: black;
- background-color: white;
- width: 2.5rem; 
+.more-half .button2 {
+  color: black;
+  background-color: white;
+  width: 2.5rem;
   height: 2.6rem;
   border: 1px solid rgb(93, 92, 92);
   /* margin-left: 1rem; */
   margin-top: 1rem;
 }
-.more-half .button2:hover{
- color: white;
- background-color: black;
- width: 2.5rem; 
+.more-half .button2:hover {
+  color: white;
+  background-color: black;
+  width: 2.5rem;
   height: 2.6rem;
   border: 1px solid rgb(93, 92, 92);
   /* margin-left: 1rem; */
@@ -1131,7 +1133,7 @@ div .view {
 
 /* MENU-BURGER PAGE */
 
-.navbarstyleouter h5 .all1{
+.navbarstyleouter h5 .all1 {
   /* background-color: transparent; */
   outline: none;
   color: white;
@@ -1141,16 +1143,12 @@ div .view {
   height: 3rem;
   margin-top: -0.7rem;
   border: none;
-} 
-.navbarstyleouter h5 :hover{
+}
+.navbarstyleouter h5 :hover {
   background-color: orange;
 }
 
-
-
 /* view more section in category shop page */
-
-
 
 .more-half1 {
   display: grid;
@@ -1223,4 +1221,40 @@ div .view {
 .more-half1 .first1 p {
   color: rgb(183, 177, 177);
   text-align: center;
+}
+
+/* category shop page */
+
+#cpb {
+  
+}
+#cpb1 {
+  background-color: white;
+  color: black;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  border: 1px solid black;
+}
+#cpb1:hover {
+  background-color: black;
+  color: white;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+#cpb2 {
+  background-color: white;
+  color: black;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  border: 1px solid black;
+}
+#cpb2:hover {
+  background-color: black;
+  color: white;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
 }
