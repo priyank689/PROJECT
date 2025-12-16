@@ -19,3 +19,19 @@ all10.addEventListener("click", function () {
 all11.addEventListener("click", function () {
   window.location.href = "pages.html";
 });
+
+
+let all13=document.getElementById("meatsaladpage");
+let all14=document.getElementById("lemonjuicepage");
+let all15=document.getElementById("sollowburgerpage");
+all13.addEventListener("click", function () {
+  window.location.href = "meatsalad.html";
+});
+
+all14.addEventListener("click", function () {
+  window.location.href = "lemonjuice.html";
+});
+
+all15.addEventListener("click", function () {
+  window.location.href = "sollowburger.html";
+});

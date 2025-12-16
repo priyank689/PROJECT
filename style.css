@@ -405,6 +405,9 @@ div .view {
   margin-top: 2rem;
   border: 12px solid orange;
 }
+.fifthone i{
+  background: transparent;
+}
 
 .sixth h2 {
   color: orange;
@@ -1226,7 +1229,6 @@ div .view {
 /* category shop page */
 
 #cpb {
-  
 }
 #cpb1 {
   background-color: white;
@@ -1259,35 +1261,33 @@ div .view {
   margin-left: 1rem;
 }
 
-
 /* meatsalad.html */
 
-.firstmeatimagediv{
+.firstmeatimagediv {
   display: flex;
   /* margin-top: 5rem; */
 }
-.firstmeatimagediv img{
+.firstmeatimagediv img {
   /* display: flex; */
   margin-top: 7rem;
 }
-.secondmeatimagediv{
+.secondmeatimagediv {
   margin-top: 13rem;
 }
-.secondmeatimagediv h3{
+.secondmeatimagediv h3 {
   font-weight: bolder;
 }
-.secondmeatimagediv h6{
+.secondmeatimagediv h6 {
   color: orange;
   font-weight: 600;
-  
 }
-.secondmeatimagediv p{
+.secondmeatimagediv p {
   font-weight: 300;
   width: 79%;
   font-size: 15px;
   /* font-family: 'Times New Roman', Times, serif; */
 }
-.secondmeatimagediv button{
+.secondmeatimagediv button {
   width: 13rem;
   height: 3.8rem;
   margin-top: 1rem;
@@ -1296,15 +1296,14 @@ div .view {
   background-color: orange;
   color: white;
   font-weight: 600;
-  
 }
 .secondmeatimagediv button i {
   margin-right: 0.9rem;
-  background-color: orange;
+  background: transparent;
   font-size: 1.6rem;
   /* color: white; */
 }
-.secondmeatimagediv button:hover{
+.secondmeatimagediv button:hover {
   width: 13rem;
   height: 3.8rem;
   margin-top: 1rem;
@@ -1319,5 +1318,4 @@ div .view {
   background-color: white;
   font-size: 1.6rem;
   transition: 0.7s;
-  
 }
