@@ -61,3 +61,21 @@ all11.addEventListener("click", function () {
 all14.addEventListener("click", function () {
   window.location.href = "category-shop.html";
 });
+
+
+let img1 = document.getElementById("jsburger");
+let img2 = document.getElementById("jsdeserts");
+let img3 = document.getElementById("jsdcp");
+img1.addEventListener("click", function () {
+  window.location.href = "Menu-Burger.html";
+});
+img2.addEventListener("click", function () {
+  window.location.href = "Menu-Desert.html";
+});
+img3.addEventListener("click", function () {
+  window.location.href = "Menu-Pizza.html";
+});
+let buttonviewmore = document.getElementById("viewmore1");
+buttonviewmore.addEventListener("click", function () {
+  window.location.href = "menu.html";
+});
