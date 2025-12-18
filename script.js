@@ -79,3 +79,10 @@ let buttonviewmore = document.getElementById("viewmore1");
 buttonviewmore.addEventListener("click", function () {
   window.location.href = "menu.html";
 });
+
+let details = document.getElementById("crust");
+let details1 = document.getElementById("comparison");
+let details2 = document.getElementById("kids");
+details.addEventListener("click", function () {
+  window.location.href = "PIZZON_WHERE_CRUST_MEETS_CREATIVITY.html";
+});
