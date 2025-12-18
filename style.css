@@ -1319,3 +1319,63 @@ div .view {
   font-size: 1.6rem;
   transition: 0.7s;
 }
+
+
+/* PIZZON WHERE CRUSTS MEETS CREATIVITY */
+
+.customersreview{
+  height: auto;
+  width: 85%;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 10%;
+  margin-bottom: 5rem;
+}
+.customersreview img{
+  margin-top: 7rem; 
+}
+.customersreview .one{
+  background-color: white;
+  letter-spacing: 4px;
+  /* gap: 5px; */
+  margin-top: 1rem;
+  word-spacing: 5px;
+}
+.customersreview h4{
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  
+}
+
+.customersreview .two{
+  background-color: white;
+  color: rgb(120, 116, 116);
+  font-size: 13.5px;
+  text-align: start;
+  width: 91.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-weight: 498; */
+  /* height: 8rem; */
+}
+.customersreview .box{
+  background-color: white;
+  border: 1px solid rgb(120, 116, 116);
+  width: 91.5%;
+  height: 8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.customersreview .box p{
+  padding: 2.4rem;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    /* word-spacing: 1px; */
+
+}
+
