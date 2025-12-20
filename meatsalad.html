@@ -66,10 +66,10 @@
             <img src="meatsalad.png" alt="" style="background-color: white;">
         </div>
         <div class="secondmeatimagediv" style="background-color: white;">
-            <h3 style="background-color: white;">Meat Salad</h3>
+            <h3 style="background-color: white;">MEAT SALAD</h3>
             <h6 style="background-color: white;">$30.00</h6>
             <p style="background-color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-            <button class="addtocart"><i class="fa-solid fa-bag-shopping"></i>ADD TO CART</button>
+            <button class="addtocart" onclick="addToCart('MEAT SALAD', 2893)"><i class="fa-solid fa-bag-shopping"></i>ADD TO CART</button>
         </div>
     </div>
 
@@ -78,17 +78,18 @@
 
     <div class="fourth" style="height: 31rem; padding-bottom: 4rem;background-color: white;">
       
-      <div class="first" style="margin-top: 3.2rem;background-color: white;">
+      <div class="first product" style="margin-top: 3.2rem;background-color: white;">
         <img src="caesar salad.png" alt="" style="padding-left: 2.5rem; margin-left: 2.8rem; width: 18rem; height: 16rem;background-color: white;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Caesar Salad</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">CAESAR SALAD</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $63.00</h7>
+        <button onclick="addToCart('CAESAR SALAD', 1893)">ORDER NOW</button>
       </div>
 
-      <div class="first" style="margin-top: -5.5;background-color: white;">
+      <div class="first product" style="margin-top: -5.5;background-color: white;">
         <img src="olivesalad.png" alt="" style="padding-left: 1.8rem;background-color: white;" />
         <h5 style="padding-left: 1rem; padding-top: 0.7rem;background-color: white;color: black;">OLIVE SALAD</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -96,9 +97,10 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $52.00</h7>
+        <button onclick="addToCart('OLIVE SALAD', 1893)">ORDER NOW</button>
       </div>
 
-      <div class="first" style="margin-top: 0.8rem;background-color: white;">
+      <div class="first product" style="margin-top: 0.8rem;background-color: white;">
         <img src="greensalad.png" alt="" style="padding-left: 1.6rem;background-color: white;" />
         <h5 style="padding-left: 0.7rem;background-color: white;color: black;">GREEN SALAD</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -106,6 +108,7 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $45.00</h7>
+        <button onclick="addToCart('GREEN SALAD', 1893)">ORDER NOW</button>
       </div>
 
       
@@ -114,7 +117,7 @@
     </div>
 
     <!-- last line-->
-    <div class="eleventh">
+    <div class="eleventh" style="margin-top: 3rem;">
       <div class="first" style="margin: 5rem 0 0 4rem;">
       <img src="logo.png" alt="">
       <p class="address" style="margin-top:2.3rem;">20 Carrochan Rd, Balloch, Alexandria G83 8EG, UK 69QJ+2F Alexandria, United Kingdom</p>
@@ -154,7 +157,21 @@
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
+    <script>
+function addToCart(name, price) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
+  cart.push({
+    name: name,
+    price: price,
+    qty: 1
+  });
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  alert(name + " added to cart");
+}
+</script>
     <script src="script-category2.js"></script>
     <script src="scriptpages.js"></script>
   </body>
