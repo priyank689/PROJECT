@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -158,7 +158,7 @@
         <i class="fa-brands fa-square-twitter"></i>
     </div>
     <script>
-function addToCart(name, price) {
+      function addToCart(name, price) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   cart.push({
@@ -171,8 +171,28 @@ function addToCart(name, price) {
 
   alert(name + " added to cart");
 }
-</script>
-    <script src="script-category2.js"></script>
-    <script src="scriptpages.js"></script>
+let all17=document.getElementById("menu-section");
+let all18=document.getElementById("home-section");
+let all19=document.getElementById("blog-section");
+let all110=document.getElementById("reservation-section");
+let all111=document.getElementById("pages-section");
+
+all17.addEventListener("click", function () {
+  window.location.href = "Menu.html";
+});
+all18.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
+all19.addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
+all110.addEventListener("click", function () {
+  window.location.href = "reservation.html";
+});
+all111.addEventListener("click", function () {
+  window.location.href = "pages.html";
+});
+    </script>
+    <script src="newcart.js"></script>
   </body>
 </html>

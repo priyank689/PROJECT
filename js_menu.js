@@ -10,7 +10,6 @@ let all8=document.getElementById("home-section");
 let all9=document.getElementById("blog-section");
 let all10=document.getElementById("reservation-section");
 let all11=document.getElementById("pages-section");
-let all14=document.getElementById("view");
 
 all55.addEventListener("click", function () {
   window.location.href = "index.html";
@@ -48,40 +47,19 @@ all10.addEventListener("click", function () {
 all11.addEventListener("click", function () {
   window.location.href = "pages.html";
 });
-all14.addEventListener("click", function () {
-  window.location.href = "category-shop.html";
-});
+function addToCart(name, price) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
+  cart.push({
+    name: name,
+    price: price,
+    qty: 1
+  });
 
-let img1 = document.getElementById("jsburger");
-let img2 = document.getElementById("jsdeserts");
-let img3 = document.getElementById("jsdcp");
-img1.addEventListener("click", function () {
-  window.location.href = "Menu-Burger.html";
-});
-img2.addEventListener("click", function () {
-  window.location.href = "Menu-Desert.html";
-});
-img3.addEventListener("click", function () {
-  window.location.href = "Menu-Pizza.html";
-});
-let buttonviewmore = document.getElementById("viewmore1");
-buttonviewmore.addEventListener("click", function () {
-  window.location.href = "menu.html";
-});
+  localStorage.setItem("cart", JSON.stringify(cart));
 
-let details = document.getElementById("crust");
-let details1 = document.getElementById("comparison");
-let details2 = document.getElementById("kids");
-details.addEventListener("click", function () {
-  window.location.href = "PIZZ0N_WHERE_CRUST_MEETS_CREATIVITY.html";
-});
-details1.addEventListener("click", function () {
-  window.location.href = "Possession_so_comparison_inquietu.html";
-});
-details2.addEventListener("click", function () {
-  window.location.href = "OFFERS_MADE_SPECIALLY_FOR_KIDS.html";
-});
+  alert(name + " added to cart");
+}
 let gotocart1=document.getElementById("ccart");
 let gotocart=document.getElementById("ccart1");
 

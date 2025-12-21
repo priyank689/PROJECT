@@ -42,10 +42,6 @@ function placeOrder() {
 }
 
 
-
-
-
-
 function addToCart(name, price) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 

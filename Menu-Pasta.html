@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -83,7 +83,7 @@
 
   <div class="fourth" style="height: 31rem; padding-bottom: 4rem;background-color: white;margin-bottom: 3rem;">
       
-   <div class="first" style="background-color: white;">
+   <div class="first product" style="background-color: white;">
         <img src="gultenfreepasta.png" alt="" style="padding-left: 1rem; margin-top: 0.7rem;background-color: white;" />
         <h5 style="padding-left: 0.4rem;background-color: white;color: black;">GULTEN-FREE PASTA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -91,36 +91,40 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $10.00</h7>
+        <button onclick="addToCart('GULTEN-FREE PASTA', 1893)">ORDER NOW</button>
       </div>
 
-      <div class="first" style="margin-top: 3.1rem;background-color: white;">
+      <div class="first product" style="margin-top: 3.1rem;background-color: white;">
         <img src="quattro formaggi pasta.png" alt="" style="padding-left: 2rem; width: 19rem;background-color: white; height: 16rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Quattro Formaggi</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">QUATTRO FORMAGGI</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange;background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('QUATTRO FORMAGGI', 1893)">ORDER NOW</button>
       </div>
       <!--  -->
-      <div class="first" style=" margin-top: 3.9rem;background-color: white;">
+      <div class="first product" style=" margin-top: 3.9rem;background-color: white;">
         <img src="vegetarian pasta.png" alt="" style="padding-left: 2rem;width: 18rem; height: 15rem;background-color: white;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Vegetarian Pasta</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">VEGETARIAN PASTA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('VEGETARIAN PASTA', 1893)">ORDER NOW</button>
       </div>
 
-       <div class="first" style="margin-top: 4rem;background-color: white;">
+       <div class="first product" style="margin-top: 4rem;background-color: white;">
         <img src="sea food pasta.png" alt="" style="padding-left: 2.5rem;background-color: white; margin-left: 3rem; width: 17rem; height: 15rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Sea Food Pasta</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">SEA FOOD PASTA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('SEA FOOD PASTA', 1893)">ORDER NOW</button>
       </div>
 
 
@@ -308,7 +312,6 @@
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
-
-    <script src="script.js"></script>
+    <script src="js_menu.js"></script>
   </body>
 </html>

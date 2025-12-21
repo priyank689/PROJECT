@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -83,7 +83,7 @@
 
   <div class="fourth" style="height: 31rem; padding-bottom: 4rem;background-color: white;">
       
-      <div class="first" style="margin-top: 0.5rem;background-color: white;">
+      <div class="first product" style="margin-top: 0.5rem;background-color: white;">
         <img src="sollowburger.png" alt="" style="padding-left: 1.rem;background-color: white;" />
         <h5 style="padding-left: 0.2rem;background-color: white;color: black;">SOLLOW BURGER</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -91,9 +91,10 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $70.00</h7>
+        <button onclick="addToCart('CHOCOLATE COOKIES', 1893)">ORDER NOW</button>
       </div>
       
-      <div class="first" style="background-color: white;">
+      <div class="first product" style="background-color: white;">
         <img src="freshburger.png" alt="" style="padding-left: 1.3rem; margin-top: 0.6rem;background-color: white;" />
         <h5 style="padding-left: 0.7rem;background-color: white;color: black;">GREEN SALAD</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -101,10 +102,11 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $12.00</h7>
+        <button onclick="addToCart('CHOCOLATE COOKIES', 1893)">ORDER NOW</button>
       </div>
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
-      <div class="first" style="margin-top: 3.9rem;background-color: white;">
+      <div class="first product" style="margin-top: 3.9rem;background-color: white;">
         <img src="veggie combo burger.png" alt="" style="padding-left: 2rem;background-color: white; width: 21rem; height: 15rem;" />
         <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Veggie Combo</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -112,9 +114,10 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('CHOCOLATE COOKIES', 1893)">ORDER NOW</button>
       </div>
       <!--  -->
-      <div class="first" style="margin-top: 2.1rem;background-color: white;">
+      <div class="first product" style="margin-top: 2.1rem;background-color: white;">
         <img src="veggie supreme burger.png" alt="" style="padding-left: 2rem;background-color: white; width: 20rem; height: 15rem; margin-top: 2rem;" />
         <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Veggie Supreme</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
@@ -122,6 +125,7 @@
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('CHOCOLATE COOKIES', 1893)">ORDER NOW</button>
       </div>
 
     </div>
@@ -307,8 +311,6 @@
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
-
-
-    <script src="script.js"></script>
+ <script src="js_menu.js"></script>
   </body>
 </html>

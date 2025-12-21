@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -77,67 +77,73 @@
 <!-- menu section -->
 
 
-  <div class="fourth" style="height: 48rem; padding-bottom: 4rem; margin-top: 5rem;">
+  <div class="fourth" style="height: 53rem; padding-bottom: 4rem; margin-top: 5rem;">
       
-   <div class="first" style="margin-top: -5rem;">
+   <div class="first product" style="margin-top: -5rem;">
         <img src="greek pizza.png" alt="" style="padding-left: 2.5rem; margin-left: 3rem; width: 17rem; height: 15rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">Greek Pizza</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">GREEK PIZZA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('MEAT SALAD', 1893)">ORDER NOW</button>
       </div>
        
-      <div class="first" style="margin-top: -5rem;">
+      <div class="first product" style="margin-top: -5rem;">
         <img src="neapolitan pizza.png" alt="" style="padding-left: 2rem; margin-left: 3rem; width: 17rem; height: 15rem; margin-top: 0rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">Neapolitan Pizza</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">NEAPOLITAN PIZZA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('NEAPOLITAN PIZZA', 1893)">ORDER NOW</button>
       </div>
     
-      <div class="first" style="margin-top: -5rem;">
+      <div class="first product" style="margin-top: -5rem;">
         <img src="italian pizza.png" alt="" style="padding-left: 0rem; width: 14rem; height: 15rem; margin-left: 5.3rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">Italian Pizza</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">ITALIAN PIZZA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('ITALIAN PIZZA', 1893)">ORDER NOW</button>
       </div>
     
-      <div class="first" style=" margin-top: -5rem;">
+      <div class="first product" style=" margin-top: -5rem;">
         <img src="garlink pizza.png" alt="" style="padding-left: 2.5rem; margin-left: 2.3rem; width: 17rem; height: 15rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">Garlink Pizza</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">GARLINK PIZZA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('GARLINK PIZZA', 1893)">ORDER NOW</button>
       </div>
      
 
-      <div class="first" style="margin-top: 1rem;">
+      <div class="first product" style="margin-top: 1rem;">
         <img src="pepperoni pizza.png" alt="" style="padding-left: 0rem; width: 14rem; height: 15rem; margin-left: 5.5rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">Italian Pizza</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">ITALIAN PIZZA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('ITALIAN PIZZA', 1893)">ORDER NOW</button>
       </div>
       
-      <div class="first" style="margin-top: 1rem;">
+      <div class="first product" style="margin-top: 1rem;">
         <img src="margherita pizza.png" alt="" style="padding-left: 0rem; width: 15rem; height: 15rem; margin-left: 5.1rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">Margherita Pizza</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;">MARGHERITA PIZZA</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('MARGHERITA PIZZA', 1893)">ORDER NOW</button>
       </div>
 
     </div>
@@ -325,7 +331,6 @@
         <i class="fa-brands fa-square-twitter"></i>
     </div>
 
-
-    <script src="script.js"></script>
+     <script src="js_menu.js"></script>
   </body>
 </html>

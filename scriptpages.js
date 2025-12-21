@@ -1,37 +1,46 @@
-let all7=document.getElementById("menu-section");
-let all8=document.getElementById("home-section");
-let all9=document.getElementById("blog-section");
-let all10=document.getElementById("reservation-section");
-let all11=document.getElementById("pages-section");
+let all17=document.getElementById("menu-section");
+let all18=document.getElementById("home-section");
+let all19=document.getElementById("blog-section");
+let all110=document.getElementById("reservation-section");
+let all111=document.getElementById("pages-section");
 
-all7.addEventListener("click", function () {
+all17.addEventListener("click", function () {
   window.location.href = "Menu.html";
 });
-all8.addEventListener("click", function () {
+all18.addEventListener("click", function () {
   window.location.href = "index.html";
 });
-all9.addEventListener("click", function () {
+all19.addEventListener("click", function () {
   window.location.href = "blog.html";
 });
-all10.addEventListener("click", function () {
+all110.addEventListener("click", function () {
   window.location.href = "reservation.html";
 });
-all11.addEventListener("click", function () {
+all111.addEventListener("click", function () {
   window.location.href = "pages.html";
 });
 
 
-let all13=document.getElementById("meatsaladpage");
-let all14=document.getElementById("lemonjuicepage");
-let all15=document.getElementById("sollowburgerpage");
-all13.addEventListener("click", function () {
+let all113=document.getElementById("meatsaladpage");
+let all114=document.getElementById("lemonjuicepage");
+let all115=document.getElementById("sollowburgerpage");
+all113.addEventListener("click", function () {
   window.location.href = "meatsalad.html";
 });
 
-all14.addEventListener("click", function () {
+all114.addEventListener("click", function () {
   window.location.href = "lemonjuice.html";
 });
 
-all15.addEventListener("click", function () {
+all115.addEventListener("click", function () {
   window.location.href = "sollowburger.html";
+});
+let gotocart1=document.getElementById("ccart");
+let gotocart=document.getElementById("ccart1");
+
+gotocart1.addEventListener("click", function () {
+  window.location.href = "cart.html";
+});
+gotocart.addEventListener("click", function () {
+  window.location.href = "cart.html";
 });

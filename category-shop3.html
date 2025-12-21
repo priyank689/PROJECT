@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -274,9 +274,35 @@
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
-    <script src="cartscript.js"></script>
+    <script >function addToCart(name, price) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  cart.push({
+    name: name,
+    price: price,
+    qty: 1
+  });
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  alert(name + " added to cart");
+}
+  let all1=document.getElementById("cpb");
+let all2=document.getElementById("cpb1");
+let all3=document.getElementById("cpb2");
+
+all1.addEventListener("click", function () {
+  window.location.href = "category-shop.html";
+});
+
+all2.addEventListener("click", function () {
+  window.location.href = "category-shop2.html";
+});
+all3.addEventListener("click", function () {
+  window.location.href = "category-shop3.html";
+});
+</script>
     <script src="scriptpages.js"></script>
-    <script src="script-category2.js"></script>
     
   </body>
 </html>

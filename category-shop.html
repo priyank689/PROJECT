@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -228,9 +228,6 @@
       <button id="cpb1">2</button>
       <button id="cpb2">3</button>
     
-
-
-    <!-- last line-->
     <div class="eleventh">
       <div class="first" style="margin: 5rem 0 0 4rem;">
       <img src="logo.png" alt="">
@@ -271,8 +268,77 @@
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
-    <script src="cartscript.js"></script>
-    <script src="scriptpages.js"></script>
-    <script src="script-category2.js"></script>
+    <script>
+function addToCart(name, price) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  cart.push({
+    name: name,
+    price: price,
+    qty: 1
+  });
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  alert(name + " added to cart");
+}
+
+
+let all7=document.getElementById("menu-section");
+let all8=document.getElementById("home-section");
+let all9=document.getElementById("blog-section");
+let all10=document.getElementById("reservation-section");
+let all11=document.getElementById("pages-section");
+
+all7.addEventListener("click", function () {
+  window.location.href = "Menu.html";
+});
+all8.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
+all9.addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
+all10.addEventListener("click", function () {
+  window.location.href = "reservation.html";
+});
+all11.addEventListener("click", function () {
+  window.location.href = "pages.html";
+});
+
+
+let all13=document.getElementById("meatsaladpage");
+let all14=document.getElementById("lemonjuicepage");
+let all15=document.getElementById("sollowburgerpage");
+all13.addEventListener("click", function () {
+  window.location.href = "meatsalad.html";
+});
+
+all14.addEventListener("click", function () {
+  window.location.href = "lemonjuice.html";
+});
+
+all15.addEventListener("click", function () {
+  window.location.href = "sollowburger.html";
+});
+
+
+let all1=document.getElementById("cpb");
+let all2=document.getElementById("cpb1");
+let all3=document.getElementById("cpb2");
+
+all1.addEventListener("click", function () {
+  window.location.href = "category-shop.html";
+});
+
+all2.addEventListener("click", function () {
+  window.location.href = "category-shop2.html";
+});
+all3.addEventListener("click", function () {
+  window.location.href = "category-shop3.html";
+});
+
+    </script>
+    <script src="newcart.js"></script>
   </body>
 </html>

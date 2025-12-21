@@ -49,9 +49,9 @@
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
     <div class="richresturant">
@@ -84,59 +84,61 @@
   <div class="fourth" style="height: 52rem; padding-bottom: 4rem;background-color: white;">
       
 
-    <div class="first" style="margin-top: 0rem;background-color: white;">
+    <div class="first product" style="margin-top: 0rem;background-color: white;">
         <img src="pink doughnut.png" alt="" style="padding-left: 2.5rem;background-color: white; margin-left: 3rem; width: 17rem; height: 15rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Pink Doughnut</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">PINK DOUGHNUT</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('PINK DOUGHNUT', 1893)">ORDER NOW</button>
       </div>
     
-    <div class="first" style="margin-top: -1.1rem;background-color: white;">
+    <div class="first product" style="margin-top: -1.1rem;background-color: white;">
         <img src="ice coffee.png" alt="" style="padding-left: 2rem;background-color: white; margin-left: 6.3rem; width: 10rem; height: 14rem; margin-top: 2rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Ice Coffee</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">ICE COFFEE</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('ICE COFFEE', 1893)">ORDER NOW</button>
       </div>
    
     
-    <div class="first" style=" margin-top: -0.1rem;background-color: white;">
+    <div class="first product" style=" margin-top: -0.1rem;background-color: white;">
         <img src="delicious coffee.png" alt="" style="padding-left: 2.5rem; margin-left: 4.3rem;background-color: white; width: 13rem; height: 15rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Delicius Coffee</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">DELICIOUS COFFEE</h5>
         <p style="padding-left: 2rem;background-color: white; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('DELICIOUS COFFEE', 1893)">ORDER NOW</button>
       </div>
 
-     <div class="first" style=" margin-top: 1rem;background-color: white;">
+     <div class="first product" style=" margin-top: 1rem;background-color: white;">
         <img src="chocolate cookies.png" alt="" style="padding-left: 2.5rem;background-color: white; margin-left: 2.8rem; width: 16rem; height: 14rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Chocolate Cookies</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">CHOCOLATE COOKIES</h5>
         <p style="padding-left: 2rem;background-color: white; color: rgb(183, 177, 177)">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('CHOCOLATE COOKIES', 1893)">ORDER NOW</button>
       </div>
     
-    <div class="first" style="margin-top: 1rem;background-color: white;">
+    <div class="first product" style="margin-top: 1rem;background-color: white;">
         <img src="cream and green desert.png" alt="" style="padding-left: 2rem;background-color: white; margin-left: 4rem; width: 15rem; height: 15rem; margin-top: 0rem;" />
-        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">Cream And Green</h5>
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem;background-color: white;color: black;">CREAM AND GREEN</h5>
         <p style="padding-left: 2rem; color: rgb(183, 177, 177);background-color: white;">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus…
         </p>
         <h7 style="color: orange; margin-left: 10.5rem;background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('CREAM AND GREEN', 1893)">ORDER NOW</button>
       </div>
-
-
-
 
     </div>
 
@@ -321,8 +323,7 @@
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
-
-    <script src="script.js"></script>
+     <script src="js_menu.js"></script>
 
   </body>
 </html>

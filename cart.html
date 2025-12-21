@@ -6,23 +6,15 @@
 <title>My Cart - Pizzon</title>
 
 <link rel="stylesheet" href="style.css">
-
-<!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
-/* ================= CART FIX ================= */
 .cart-wrapper {
   background: #fff7f0;
   padding: 3rem 0 4rem;
 }
-
 #cartItems {
   max-width: 800px;
   margin: 2rem auto;
@@ -31,12 +23,9 @@
   border-radius: 18px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.1);
 }
-
-.cart-wrapper,
-.cart-wrapper * {
+.cart-wrapper,.cart-wrapper * {
   background-color: transparent !important;
 }
-
 .cart-item {
   background: white !important;
   display: flex;
@@ -44,11 +33,9 @@
   padding: 1rem 0;
   border-bottom: 1px dashed #ddd;
 }
-
 .cart-item:last-child {
   border-bottom: none;
 }
-
 .cart-item button {
   background: #e63946;
   border: none;
@@ -57,27 +44,23 @@
   padding: 6px 12px;
   cursor: pointer;
 }
-
 .empty-cart {
   background: transparent !important;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 500;
 }
-
 h2 {
   text-align: center;
   font-family: "Pacifico", cursive;
   color: #e63946;
 }
-
 #total {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   color: #2a9d8f;
 }
-
 .cart-btn {
   display: block;
   margin: 1.5rem auto;
@@ -88,16 +71,12 @@ h2 {
   border-radius: 30px;
   cursor: pointer;
 }
-
 .order-btn {
   background: linear-gradient(135deg, #2a9d8f, #1b7f6b);
 }
 </style>
 </head>
-
 <body>
-
-<!-- ===== NAVBAR ===== -->
 <nav>
       <img src="logo.png" alt="" />
       <ul type="none">
@@ -118,34 +97,25 @@ h2 {
         <li id="reservation-section">RESERVATION</li>
         <li id="pages-section">PAGES</li>
         <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
-        <li><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
       </ul>
-      <button>ORDER ONLINE</button>
+      <button id="ccart1">ORDER ONLINE</button>
     </nav>
 
-<!-- ===== BANNER ===== -->
 <div class="richresturant">
   <img src="delivery.png" alt="">
 </div>
 
-<!-- ===== CART SECTION ===== -->
 <div class="cart-wrapper">
-
   <h2>Your Cart 🛒</h2>
-
   <div id="cartItems"></div>
-
   <h3 id="total"></h3>
-
   <button class="cart-btn" onclick="clearCart()">Clear Cart</button>
-
   <button class="cart-btn order-btn" onclick="placeOrder()">
     <i class="fa-solid fa-pizza-slice"></i> Place Order
   </button>
-
 </div>
 
-<!-- ===== FOOTER ===== -->
 <div class="eleventh" style="margin-top: 3rem;">
       <div class="first" style="margin: 5rem 0 0 4rem;">
       <img src="logo.png" alt="">
@@ -186,9 +156,29 @@ h2 {
         <i class="fa-brands fa-square-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
     </div>
-
-<!-- ================= JS ================= -->
 <script src="cartscript.js"></script>
+<script>
+  let all7=document.getElementById("menu-section");
+let all8=document.getElementById("home-section");
+let all9=document.getElementById("blog-section");
+let all10=document.getElementById("reservation-section");
+let all11=document.getElementById("pages-section");
 
+all7.addEventListener("click", function () {
+  window.location.href = "Menu.html";
+});
+all8.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
+all9.addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
+all10.addEventListener("click", function () {
+  window.location.href = "reservation.html";
+});
+all11.addEventListener("click", function () {
+  window.location.href = "pages.html";
+});
+</script>
 </body>
 </html>
