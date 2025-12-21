@@ -14,26 +14,21 @@ body {
 nav {
   display: flex;
   position: relative;
-  /* position: sticky; */
   color: white;
-  /* background-color: rgba(40, 32, 32, 0.289); */
 }
 nav button {
   background-color: none;
 }
 nav ul li {
   display: inline-flex;
-  margin-left: 2.5rem;
-  margin-top: 1rem;
+  margin: 1rem 0 0 2.5rem;
 }
 nav img {
-  margin-left: 6rem;
-  margin-top: 0.7rem;
+  margin: 0.7rem 0 0 6rem;
 }
 
 nav button {
-  margin-left: 6rem;
-  margin-top: 0.6rem;
+  margin: 0.6rem 0 0 6rem;
   border-radius: 5rem;
   width: 9rem;
   height: 3rem;
@@ -43,22 +38,15 @@ nav button {
   color: white;
 }
 nav ul li i {
-  margin-top: 0.35rem;
-  margin-right: 3.5px;
+  margin: 0.35rem 3.5rem 0 0;
   color: orange;
 }
-
 .secondpart {
   display: flex;
   color: white;
   justify-content: space-around;
-  /* background-image: url("orange12.png.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: sticky; */
 }
-.secondpart div {
+.secondpart div{
   width: 25rem;
   border-radius: 2rem;
   margin-top: 3rem;
@@ -70,14 +58,12 @@ nav ul li i {
 }
 .secondpart div i {
   font-size: 3rem;
-  margin-left: 10rem;
-  margin-top: 2.3rem;
+  margin: 2.3rem 0 0 10rem;
   background-color: orange;
 }
 .secondpart div i:hover {
   font-size: 3rem;
-  margin-left: 10rem;
-  margin-top: 2.3rem;
+  margin: 2.3rem 0 0 10rem;
   background-color: orange;
   color: black;
 }
@@ -104,7 +90,6 @@ nav ul li i {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  /* text-decoration: underline; */
 }
 .span h1 {
   color: white;
@@ -127,21 +112,15 @@ nav ul li i {
   border-radius: 33rem;
 }
 .third div img:hover {
-  /* height: 27.9rem; */
-  /* margin-top: 4rem; */
-  /* border-radius: 35rem; */
   transition: 2s;
   transform: scale(1.1);
 }
-
 .third div h2 {
   color: white;
   text-align: center;
   padding-top: 1.5rem;
   padding-bottom: 2rem;
-  /* margin: 8px; */
 }
-
 .viewmore {
   text-align: center;
 }
@@ -171,14 +150,10 @@ div .view {
 .navbarstyleouter .navbarstyle {
   width: 40%;
   display: flex;
-  /* justify-content: space-around; */
   height: 3rem;
   border-radius: 2rem;
   background-color: rgb(55, 54, 54);
   margin-left: 28.5rem;
-  /* align-items: center;
-  align-content: center;
-  text-align: center; */
 }
 .navbarstyleouter .navbarstyle h5 {
   color: white;
@@ -187,7 +162,6 @@ div .view {
 }
 .navbarstyleouter .navbarstyle h5 .all {
   color: white;
-  /* margin-top: 0.7rem; */
   outline: none;
   background-color: orange;
   width: 6.28rem;
@@ -197,7 +171,6 @@ div .view {
   border: none;
 }
 .navbarstyleouter .navbarstyle h5 .button2 {
-  /* margin-top: 0.7rem; */
   outline: none;
   color: white;
   background-color: rgb(55, 54, 54);
@@ -208,7 +181,6 @@ div .view {
   border: none;
 }
 .navbarstyleouter .navbarstyle h5 .button2:hover {
-  /* margin-top: 0.7rem; */
   outline: none;
   color: white;
   background-color: orange;
@@ -232,17 +204,14 @@ div .view {
   margin-left: 1.8rem;
 }
 .fourth img:hover {
-  /* height: 20rem; */
   transition: 0.9s;
   transform: scale(0.8);
 }
 .fourth .first1 img {
   height: 20rem;
-  /* margin-left: 3.5rem; */
   margin-left: 4.4rem;
 }
 .fourth .first1 img:hover {
-  /* height: 20.3rem; */
   transition: 0.9s;
   transform: scale(0.8);
 }
@@ -253,7 +222,6 @@ div .view {
   margin-left: 0.4rem;
 }
 .fourth .first2 img:hover {
-  /* height: 18.3rem; */
   transition: 0.9s;
   transform: scale(0.8);
 }
@@ -292,6 +260,24 @@ div .view {
   text-align: center;
 }
 
+.fourth .product button {
+  background-color: transparent;
+  border: none;
+  margin: 0rem 0 1rem 9rem;
+  display: block;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: orange;
+  font-weight: 500;
+  width: 6rem;
+  font-size: 0.9rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+.fourth .product button:hover{
+  color: white;
+}
+
 .fifth {
   display: flex;
   justify-content: space-between;
@@ -300,19 +286,14 @@ div .view {
   text-align: center;
   height: 40rem;
   padding-top: 3rem;
-  /* color: rgb(211, 16, 16); */
 }
 .fifth .fifthone {
   width: 50%;
   background-color: white;
   margin-top: 4.5rem;
-  /* background-color: white;
-  color: white; */
 }
 .fifthone h2 {
   color: orange;
-  /* padding-top: 5rem;
-  margin-top: -1rem; */
   text-align: center;
   font-family: "Pacifico", cursive;
   font-weight: 400;
@@ -339,15 +320,10 @@ div .view {
   line-height: 1.2rem;
   font-size: 1rem;
 }
-
 .fifth .fifthtwo {
   width: 50%;
   background-color: white;
-  /* text-align: center; */
-  /* background-color: white;
-  color: white; */
 }
-
 .fifthtwo input {
   background-color: white;
   margin-top: 3rem;
@@ -364,7 +340,6 @@ div .view {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* font-family: sans-serif; */
 }
 .fifthtwo button {
   background-color: black;
@@ -405,7 +380,7 @@ div .view {
   margin-top: 2rem;
   border: 12px solid orange;
 }
-.fifthone i{
+.fifthone i {
   background: transparent;
 }
 
@@ -416,10 +391,8 @@ div .view {
   font-weight: 400;
   font-style: normal;
   padding-top: 2.5rem;
-  /* background-color: black; */
 }
 .sixth h1 {
-  /* background-color: white; */
   color: white;
   font-size: 3.1rem;
   letter-spacing: 1px;
@@ -436,7 +409,6 @@ div .view {
   margin: 20px;
   width: 90%;
   height: 30rem;
-  /* border: 5px solid red; */
   display: flex;
   overflow-x: auto;
   gap: 1em;
@@ -450,7 +422,6 @@ div .view {
   height: 10em;
   padding: 1em;
   outline: none;
-  /* background: white; */
   font-size: 3rem;
   border-radius: 0.2em;
   text-align: center;
@@ -460,12 +431,10 @@ div .view {
   background-color: white;
   color: black;
   font-size: large;
-  /* height: 4rem; */
   text-align: center;
 }
 .card1 .card img {
   height: 20rem;
-  /* width: 20rem; */
 }
 .carous .group {
   display: flex;
@@ -505,17 +474,13 @@ div .view {
 }
 .eighth-one {
   display: flex;
-  /* height: 26rem; */
   justify-content: space-around;
   background-color: white;
-  /* color: white; */
 }
 .eighth-one img {
   width: 25rem;
   height: 15rem;
   background-color: white;
-  /* margin-top: 2rem; */
-  /* border-radius: 0.5rem; */
 }
 
 .eighth-one img:hover {
@@ -531,7 +496,6 @@ div .view {
 .eighth-one .first div {
   background-color: white;
   display: flex;
-  /* margin-top: 0.6rem; */
   justify-content: space-between;
 }
 
@@ -539,37 +503,28 @@ div .view {
   background-color: white;
   font-weight: 100;
   margin-top: 0.3rem;
-  /* margin-left: 5rem; */
 }
 .eighth-one h5 {
   background-color: white;
   font-size: 1.3rem;
   padding-bottom: 1rem;
-  /* margin-top: 0.5rem; */
 }
 .eighth-one h5:hover {
   color: orange;
   padding-bottom: 1rem;
-  /* background-color: white;
-  font-size: 1.3rem; */
-  /* margin-top: 0.5rem; */
 }
 
 .eighth-one .first .readmore {
   background-color: white;
   margin-top: -0.46rem;
-  /* padding-top: 0.1rem; */
   font-weight: 150;
   color: orange;
-  /* margin-top: -0rem; */
 }
 .eighth-one .first .readmore:hover {
   color: black;
   background-color: white;
   margin-top: -0.46rem;
   font-weight: 150;
-  /* padding-top: 1rem; */
-  /* margin-top: -0rem; */
 }
 
 .ninth {
@@ -657,10 +612,7 @@ div .view {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  /* background-color: transparent; */
-  /* opacity: 0.3; */
   background: transparent;
-  /* background: none; */
 }
 
 .aboutcontainer {
@@ -684,8 +636,6 @@ div .view {
 .aboutcontainer .text h2 {
   background-color: white;
   color: orange;
-  /* padding-top: 5rem;
-  margin-top: -1rem; */
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
@@ -694,8 +644,6 @@ div .view {
 .aboutcontainer .text h1 {
   background-color: white;
   color: black;
-  /* padding-top: 1rem;
-  margin-top: -1rem; */
   letter-spacing: 1px;
   font-weight: bolder;
   font-size: 3.2rem;
@@ -719,8 +667,6 @@ div .view {
   color: orange;
   text-align: center;
   padding-top: 4rem;
-  /* padding-top: 5rem;
-  margin-top: -1rem; */
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
@@ -729,8 +675,6 @@ div .view {
   background-color: rgb(248, 242, 232);
   color: black;
   text-align: center;
-  /* padding-top: 1rem;
-  margin-top: -1rem; */
   letter-spacing: 0.5px;
   font-weight: bolder;
   font-size: 3.2rem;
@@ -752,28 +696,21 @@ div .view {
 }
 
 .newdiv {
-  /* background-color: white; */
   padding-top: 1.5rem;
   display: flex;
   background-color: white;
 }
 .newdiv .video {
-  margin-top: 5rem;
+  margin-top: 5rem 0 0 3rem;
   background-color: white;
-  margin-left: 3rem;
 }
 .newdiv .text {
   background-color: white;
-  margin-top: 11rem;
-  margin-left: 2rem;
-  /* justify-content: space-around; */
+  margin: 11rem 0 0 2rem;
 }
 .newdiv h1 {
   background-color: white;
   color: black;
-  /* text-align: center; */
-  /* padding-top: 1rem;
-  margin-top: -1rem; */
   letter-spacing: 0.5px;
   font-weight: bolder;
   font-size: 3.2rem;
@@ -783,19 +720,13 @@ div .view {
 .newdiv h2 {
   background-color: white;
   color: orange;
-  /* text-align: center; */
-  /* padding-top: 4rem; */
-  /* padding-top: 5rem;
-  margin-top: -1rem; */
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
 }
 .newdiv p {
-  /* text-align: center; */
   background-color: white;
   width: 92%;
-  /* margin-left: 17rem; */
   font-size: 14px;
   padding-top: 1rem;
   line-height: 1.5rem;
@@ -805,7 +736,6 @@ div .view {
 }
 .contactpage h1 {
   color: rgb(252, 222, 222);
-  /* padding-top: 1rem; */
   opacity: 1;
   margin-top: -15rem;
   letter-spacing: 1px;
@@ -820,8 +750,7 @@ div .view {
   height: 50rem;
 }
 .contactone .contactdetail {
-  margin-top: 4rem;
-  margin-left: 5rem;
+  margin-top: 4rem 0 0 5rem;
 }
 .contactone .contactdetail h2 {
   font-size: 2.7rem;
@@ -830,8 +759,6 @@ div .view {
 }
 .contactone .contactdetail p {
   font-size: 0.9rem;
-  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
-  /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 .contactone .contact {
   margin-top: 3rem;
@@ -861,22 +788,20 @@ div .view {
   height: 3rem;
 }
 .contactone button {
-  margin-left: 40%;
   height: 4rem;
   width: 11rem;
   border-radius: 3rem;
-  margin-top: 2rem;
+  margin: 2rem 0 0 40%;
   outline: none;
   border: 1px solid orange;
   background-color: orange;
   color: white;
 }
 .contactone button:hover {
-  margin-left: 40%;
   height: 4rem;
   width: 11rem;
   border-radius: 3rem;
-  margin-top: 2rem;
+  margin: 2rem 0 0 40%;
   outline: none;
   border: 1px solid orange;
   background-color: white;
@@ -899,8 +824,6 @@ div .view {
   display: block;
   width: 30%;
   height: 2.5rem;
-  /* margin-left: 35%;
-  margin-top: 1rem; */
   margin: 1rem 0 1rem 35%;
 }
 .login button {
@@ -924,20 +847,6 @@ div .view {
 
 /* RESERVATION PAGE */
 
-/* .form {
-  margin-top: -10rem;
-} */
-.form .one {
-  /* margin-top: 10rem; */
-  /* margin-left: 50%; */
-}
-/* .form .two{
-  margin-top: 5rem;
-}
-.form .three{
-  margin-top: 5rem;
-} */
-
 .form {
   position: relative;
   width: 100%;
@@ -950,27 +859,21 @@ div .view {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 0rem;
+  margin: 2rem 0 0 0;
 }
-
 .form input {
   width: 22rem;
   padding: 1rem;
   border: 1px solid #ccc;
   outline: none;
   font-size: 1.1rem;
-  background-color: rgba(255, 255, 255, 0.85); /* slight transparent */
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 6px;
 }
-
-.one,
-.two,
-.three {
+.one,.two,.three {
   display: flex;
   gap: 1.5rem;
 }
-
 .form button {
   background-color: orange;
   color: white;
@@ -981,7 +884,6 @@ div .view {
   border-radius: 2rem;
   font-weight: 500;
 }
-
 .form button:hover {
   background-color: white;
   color: orange;
@@ -996,7 +898,6 @@ div .view {
 /* BLOG PAGE */
 
 .full {
-  /* color: white; */
   background-color: #fff;
   height: auto;
   display: flex;
@@ -1013,8 +914,6 @@ div .view {
   background-color: white;
 }
 .full .half-of-half .smalldiv img:hover {
-  /* width: 7rem;
-  background-color: white; */
   transition: 2s;
   transform: scale(1.1);
 }
@@ -1031,8 +930,7 @@ div .view {
 .full .half-of-half .smalldiv p {
   font-size: 12px;
   font-weight: 300;
-  margin-left: 1rem;
-  margin-top: 1.2rem;
+  margin: 1.2rem 0 0 1rem;
   color: orange;
   background-color: white;
 }
@@ -1063,8 +961,7 @@ div .view {
 .more-half {
   width: 90%;
   background-color: white;
-  margin-top: 5.5rem;
-  margin-left: 10rem;
+  margin: 5.5rem 0 0 10rem;
 }
 .more-half img {
   width: 80%;
@@ -1083,9 +980,7 @@ div .view {
   margin: 1.5rem 0 rem 0;
 }
 .more-half .text .readmore:hover {
-  /* background-color: white; */
   color: rgb(62, 62, 62);
-  /* font-size: 10rem; */
 }
 .more-half .button {
   width: 2.5rem;
@@ -1093,15 +988,13 @@ div .view {
   color: black;
   background-color: white;
   border: 1px solid rgb(93, 92, 92);
-  margin-left: 1rem;
-  margin-top: 1rem;
+  margin: 1rem 0 0 1rem;
 }
 .more-half h3:hover {
   color: orange;
   transition: 0.5s;
 }
 .more-half h3 {
-  /* color: orange; */
   color: black;
   background-color: white;
   margin-top: -0.6rem;
@@ -1111,7 +1004,6 @@ div .view {
   height: 2.6rem;
   color: white;
   background-color: black;
-  /* border: 1px solid rgb(93, 92, 92); */
   transition: 1s;
 }
 .more-half .button2 {
@@ -1120,7 +1012,6 @@ div .view {
   width: 2.5rem;
   height: 2.6rem;
   border: 1px solid rgb(93, 92, 92);
-  /* margin-left: 1rem; */
   margin-top: 1rem;
 }
 .more-half .button2:hover {
@@ -1129,7 +1020,6 @@ div .view {
   width: 2.5rem;
   height: 2.6rem;
   border: 1px solid rgb(93, 92, 92);
-  /* margin-left: 1rem; */
   margin-top: 1rem;
   transition: 1s;
 }
@@ -1137,7 +1027,6 @@ div .view {
 /* MENU-BURGER PAGE */
 
 .navbarstyleouter h5 .all1 {
-  /* background-color: transparent; */
   outline: none;
   color: white;
   background-color: rgb(55, 54, 54);
@@ -1162,38 +1051,29 @@ div .view {
 }
 .more-half1 .first img {
   height: 20rem;
-  margin-bottom: 9rem;
-  margin-left: 1.8rem;
+  margin: 0 0 9rem 1.8rem;
 }
 .more-half1 img:hover {
-  /* height: 20rem; */
   transition: 0.9s;
   transform: scale(0.8);
 }
 .more-half1 .first1 img {
   height: 20rem;
-  /* margin-left: 3.5rem; */
   margin-left: 4.4rem;
 }
 .more-half1 .first1 img:hover {
-  /* height: 20.3rem; */
   transition: 0.9s;
   transform: scale(0.8);
 }
-
 .more-half1 .first2 img {
   height: 18rem;
-  margin-top: 0.1rem;
-  margin-left: 0.4rem;
+  margin: 0.1rem 0 0 0.4rem;
 }
 .more-half1 .first2 img:hover {
-  /* height: 18.3rem; */
   transition: 0.9s;
   transform: scale(0.8);
 }
-
 .more-half1 .first h5 {
-  /* color: ; */
   text-align: center;
   margin-top: -9rem;
 }
@@ -1228,8 +1108,6 @@ div .view {
 
 /* category shop page */
 
-#cpb {
-}
 #cpb1 {
   background-color: white;
   color: black;
@@ -1265,10 +1143,8 @@ div .view {
 
 .firstmeatimagediv {
   display: flex;
-  /* margin-top: 5rem; */
 }
 .firstmeatimagediv img {
-  /* display: flex; */
   margin-top: 7rem;
 }
 .secondmeatimagediv {
@@ -1285,7 +1161,6 @@ div .view {
   font-weight: 300;
   width: 79%;
   font-size: 15px;
-  /* font-family: 'Times New Roman', Times, serif; */
 }
 .secondmeatimagediv button {
   width: 13rem;
@@ -1301,7 +1176,6 @@ div .view {
   margin-right: 0.9rem;
   background: transparent;
   font-size: 1.6rem;
-  /* color: white; */
 }
 .secondmeatimagediv button:hover {
   width: 13rem;
@@ -1320,36 +1194,47 @@ div .view {
   transition: 0.7s;
 }
 
+.more-half1 .product  button {
+  background-color: transparent;
+  border: none;
+  margin: 0rem 0 1rem 9rem;
+  display: block;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: orange;
+  font-weight: 500;
+  width: 6rem;
+  font-size: 0.9rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+.more-half1 .product button:hover{
+  color: black;
+}
 
 /* PIZZON WHERE CRUSTS MEETS CREATIVITY */
 
-.customersreview{
+.customersreview {
   height: auto;
   width: 85%;
-  /* align-items: center;
-  justify-content: center; */
-  margin-left: 10%;
-  margin-bottom: 5rem;
+  margin: 0 0 5rem 10%;
 }
-.customersreview img{
-  margin-top: 7rem; 
+.customersreview img {
+  margin-top: 7rem;
 }
-.customersreview .one{
+.customersreview .one {
   background-color: white;
   letter-spacing: 4px;
-  /* gap: 5px; */
   margin-top: 1rem;
   word-spacing: 5px;
 }
-.customersreview h4{
+.customersreview h4 {
   background-color: white;
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 2px;
-  
 }
-
-.customersreview .two{
+.customersreview .two {
   background-color: white;
   color: rgb(120, 116, 116);
   font-size: 13.5px;
@@ -1357,10 +1242,8 @@ div .view {
   width: 91.5%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* font-weight: 498; */
-  /* height: 8rem; */
 }
-.customersreview .box{
+.customersreview .box {
   background-color: white;
   border: 1px solid rgb(120, 116, 116);
   width: 91.5%;
@@ -1368,14 +1251,11 @@ div .view {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.customersreview .box p{
+.customersreview .box p {
   padding: 2.4rem;
   background-color: whitesmoke;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    /* word-spacing: 1px; */
-
 }
 
