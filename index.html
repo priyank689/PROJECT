@@ -527,21 +527,7 @@
          <i class="fa-brands fa-square-twitter"></i>
       </div>
 
-      <script>
-function addToCart(name, price) {
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-  cart.push({
-    name: name,
-    price: price,
-    qty: 1
-  });
-
-  localStorage.setItem("cart", JSON.stringify(cart));
-
-  alert(name + " added to cart");
-}
-</script>
+      <script src="cartscript.js"></script>
 
 
       <script
