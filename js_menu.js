@@ -33,7 +33,7 @@ all6.addEventListener("click", function () {
   window.location.href = "Menu-Pizza.html";
 });
 all7.addEventListener("click", function () {
-  window.location.href = "Menu.html";
+  window.location.href = "menu.html";
 });
 all8.addEventListener("click", function () {
   window.location.href = "index.html";
